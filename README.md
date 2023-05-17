@@ -24,3 +24,5 @@ THe Proejct consists of :
           3.Triggers
  4.Front end Development 
         Develpoed for teh execution of Queries by client by giving them a GUI.
+        We will seelct one Query for the Frontend development and we give input based on that query.
+        User can enter their input adn they can see all the corresponding resutls to their query.
