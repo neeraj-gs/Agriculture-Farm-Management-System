@@ -26,3 +26,12 @@ THe Proejct consists of :
         Develpoed for teh execution of Queries by client by giving them a GUI.
         We will seelct one Query for the Frontend development and we give input based on that query.
         User can enter their input adn they can see all the corresponding resutls to their query.
+        
+ 5. You can run any query on the frontend and teh result is displaye din the form of a table
+
+
+Steps to Run the Project:
+      1.Download the zip file
+      2.Extract the files to a fodler.
+      3.You will find diffrent queries and files.
+      4.open your terminal in that folder where you hace the project.
