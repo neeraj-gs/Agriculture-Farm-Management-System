@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+      
+
+    </head>
+    <body>
+
+      <style>
+        .container {
+          height: 100px;
+          position: relative;
+        
+          align-items: center;
+        }
+        
+        .vertical-center {
+          margin: 0;
+          position: absolute;
+          top: 10%;
+          right: 48.5%;
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+        }
+      </style>
+    
+              <div class="row">
+                  <div class="col"><h2 style="text-align:center;">Query Results</h2></div>
+              </div>
+        
+
+
+                 <table class="table table-dark">
+                    <thead>
+                      <tr>
+                        <th>Farmer's Name</th>
+                        <th>Tool Name</th>
+                        <th>Tool Quantity</th>
+                        
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <% if(obj.length > 0){ %>
+                        <% for (let i = 0;i < obj.length;i++) { %>
+                          <tr>
+                            <td><%= obj[i].farmerName %></td>
+                            <td><%= obj[i].toolname %></td>
+                            <td><%= obj[i].toolquantity %></td>
+                            
+                          </tr>
+                        <% } %>        
+                    <% } else{ %>  
+                      <tr>
+                        <td colspan="5">No Results Found for the Selected Input</td>
+                      </tr>
+                    <% } %>
+                  </table>
+                  
+            
+      
+    </body>
+</html>
