@@ -1,0 +1,67 @@
+<html id="pg">
+    <head>
+        <title>Frontend Query</title>
+        <link rel="icon" type="image/x-icon" href="D:\DBMS_MINI_PROJECT\mysql_backend\mysql_backend\agri.jpg">
+    </head>
+    <body>
+        <style>   
+            body{
+                background-color: #BEF3B4;
+               
+            }
+            h1{
+                text-align: center;
+                color:brown;
+                background-color: #88b8e0;
+            }
+            .container {
+              height: 100px;
+              position: relative;
+            
+              align-items: center;
+            }
+            
+            .vertical-center {
+              margin: 0;
+              position: absolute;
+              top: 10%;
+              right: 48.5%;
+              -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+            }
+            </style>
+        <br>
+    <br>
+    <div class="cont">
+        <div class="form sign-in">
+            <h1>AGRICULTURE FARM MANAGEMENT SYSTEM</h1>
+            <h2  style="text-align:center;">Welcome</h2>
+            
+            
+            
+            <div class="form sign-up">
+                <h2 style="text-align:center;">Query:Display the Farmer's Name,Tool Name and Tool Quantity according to given input</h2>
+                <form action="/fetch" method = "POST">
+                    <label>
+                        <h3 style="text-align:center;"> Enter Farmer's Name </h3>
+                        <h3 style="text-align:center;"><input type="text" name="name" required/></h3>
+                    </label>
+                   
+                    
+                    
+                    <div class="container">
+                        <div class="vertical-center">
+                        <input type="submit">
+                        </div>
+                    </div>
+                   </form> 
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+
+    
+    </body>
+</html>
