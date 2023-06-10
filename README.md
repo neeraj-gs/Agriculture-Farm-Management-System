@@ -35,3 +35,7 @@ Steps to Run the Project:
       2.Extract the files to a fodler.
       3.You will find diffrent queries and files.
       4.open your terminal in that folder where you hace the project.
+      5.Run the final.ejs file
+      6.You will get a port number
+      7.go to broweser and type localhost:portnumber you wil lget the webpage
+      8.Enter the query value and you will see the result corresponding to it
