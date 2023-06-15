@@ -39,3 +39,6 @@ Steps to Run the Project:
       6.You will get a port number
       7.go to broweser and type localhost:portnumber you wil lget the webpage
       8.Enter the query value and you will see the result corresponding to it
+
+
+Screenshots for each will be uplaoded
