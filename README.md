@@ -42,3 +42,4 @@ Steps to Run the Project:
 
 
 Screenshots for each will be uplaoded
+There is also a report atached which will make it easier.
